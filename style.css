@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+.navBar {
+    margin: 0 auto;
+    padding: 3px 6px;
+    display: flex;
+    background-color: gray;
+    color: white;
+    justify-content: space-around;
+    font-size: 12px;
+    font-weight: lighter;
+}
+
+ul{
+    display: flex;
+    font-size: small;
+    width:300px;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style-type: none;
+    text-decoration: none;
+    padding-left: 1.2em;
+}
+
+button{
+    margin-top: 8px;
+    padding: 3px 6px;
+    height: fit-content;
+    color: white;
+    background-color: turquoise;
+    border: solid black 1px;
+    box-shadow: 3px 2px yellow;
+}
+
+#flex-container{
+    display: flex;
+}
+
+
+#leftInfo {
+    margin: 0 auto;
+    width: 200px;
+    background-color: turquoise;
+}
+
+/* .personalInfo {
+    margin: 20px 10px 20px 50px;
+    border: solid 2px gray;
+    background-color: whitesmoke;
+    padding: 10px 20px 8px 12px;
+} */
+
+.personalInfo h1 {
+    margin-bottom: 3px;
+    padding-bottom: 6px;
+    font-size: 1.5em;
+}
+
+.personalInfo h2, h3, h4, .yourConnections h2, .requests h2{
+    margin-bottom: 5px;
+    text-align: start;
+    font-size: 14px;
+}
+
+.personalInfo h4, .yourConnections h4{
+    color: blueviolet;
+    text-decoration: underline;
+}
+
+#rightInfo{
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    background-color: violet;
+    border: 2px solid gray;
+}
+
+.eduInfo, .yourConnections, .personalInfo{
+    margin: 20px 10px 20px 50px;
+    border: solid 2px gray;
+    background-color: whitesmoke;
+    padding: 10px 20px 8px 12px;
+}
+
+.eduInfo h3, .yourConnections h3, .requests h3 {
+    margin-bottom: 8px;
+    font-size: 16px;
+    color: goldenrod;
+}
+
+.eduInfo h2, h4 {
+    padding-bottom: 5px;
+    margin-bottom: 3px;
+    font-size: 12px;
+}
+
+.eduInfo h4 {
+    color: plum;
+}
+
+.requests{
+    margin: 20px 10px 20px 50px;
+    border: solid 2px gray;
+    background-color: whitesmoke;
+    padding: 10px 20px 8px 12px;
+}
+
+/* .yourConnections{
+    margin: 20px 10px 20px 50px;
+    border: solid 2px gray;
+    background-color: whitesmoke;
+    padding: 10px 20px 8px 12px;
+} */
+
+.yourConnections h4{
+    padding-top: 15px;
+}
+
+#avatar{
+    height: 60px;
+}
+
+.icons{
+    height:15px;
+    margin-right: 3px;
+    align-items: center;
+}
+
+#editProfile{
+    background-color: none;
+}
+
+span{
+    color: black;
+    background-color: goldenrod;
+    padding: 5px;
+    border-radius: 50%;
+    margin-right: 5px;
+    margin-bottom: 20px;
+}
+
+.spacing{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+#editProfile, #firstAcc,#firstAcc1,#secondAcc,#secondAcc1{
+    cursor: pointer;
+}
